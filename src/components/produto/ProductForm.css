@@ -1,0 +1,52 @@
+
+.--modal{
+ background-color: var(--clr-secondary)
+}
+
+form.form-cat{
+ display: flex;
+ justify-content: center;
+}
+
+
+  form label {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  input,
+  textarea ,select{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+  }
+  
+  form img {
+    max-width: 100px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-cad button {
+    background-color: #4caf50;
+    border-radius: 3px;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  form button{
+    background-color: #4caf50;
+    border-radius: 3px;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .btn-cad{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
